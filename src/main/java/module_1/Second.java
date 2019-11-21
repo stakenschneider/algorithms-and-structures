@@ -1,3 +1,5 @@
+package module_1;
+
 import java.util.Scanner;
 
 // высота дерева

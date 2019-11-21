@@ -1,12 +1,14 @@
+package module_1;
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-//class Stack<T> {
+//class module_1.Stack<T> {
 //    public T[] stackArray;
 //    private int top;
 //
-//    Stack(int m) {
+//    module_1.Stack(int m) {
 //        this.stackArray  = (T[])new Object[m];
 //        top = -1;
 //    }
