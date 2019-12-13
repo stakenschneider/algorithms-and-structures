@@ -49,7 +49,9 @@ public class First {
         Scanner in = new Scanner(System.in);
         char[] chArray = in.nextLine().toCharArray();
 
-        int result = result(chArray);
+        int result;
+        result = result(chArray);
+
         if (result == 0) {
             System.out.print("Success");
         } else {

@@ -1,6 +1,6 @@
 package module_2;
 
-import java.lang.*;
+import java.lang.System;
 import java.util.Scanner;
 
 //Построение кучи
@@ -9,8 +9,9 @@ public class First {
     static private int count = 0;
 
     private void sort(int[] arr) {
-        for (int i = arr.length / 2 - 1; i >= 0; i--)
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
             heapify(arr, arr.length, i);
+        }
 
         for (int i = arr.length - 1; i >= 0; i--) {
             int temp = arr[0];

@@ -16,20 +16,16 @@ public class Fourth {
 
         str = new String[n];
 
-        Stack<Integer> maxValue = new Stack<>(new ArrayList<>());
+        MaxStack<Integer> maxValue = new MaxStack<Integer>(new ArrayList<Integer>());
         StringBuilder builder = new StringBuilder();
+
         for (int i = 0; i < n; i++) {
             str[i] = in.nextLine();
             String[] command = str[i].split(" ", 2);
 
             switch (command[0]) {
                 case "push":
-                    int value = Integer.parseInt(command[1]);
-                    if (!maxValue.isEmpty()) {
-                        maxValue.push(Math.max(maxValue.peek(), value));
-                    } else {
-                        maxValue.push(value);
-                    }
+                    maxValue.push(Integer.parseInt(command[1]));
                     break;
                 case "pop":
                     if (!maxValue.isEmpty()) {
