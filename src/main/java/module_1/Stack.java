@@ -1,41 +1,15 @@
 package module_1;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
-//class module_1.Stack<T> {
-//    public T[] stackArray;
-//    private int top;
-//
-//    module_1.Stack(int m) {
-//        this.stackArray  = (T[])new Object[m];
-//        top = -1;
-//    }
-//
-//    void push(T element) {
-//        stackArray[++top] = element;
-//    }
-//
-//    T pop() {
-//        return stackArray[--top];
-//    }
-//
-//    T peek() {
-//        return stackArray[top];
-//    }
-//
-//    boolean isEmpty() {
-//        return top == -1;
-//    }
-//}
-
 class Stack<T> {
-    private List<T>  stackArray;
+    protected List<T>  stackArray;
 
     Stack(List<T> stackArray) {
         this.stackArray = stackArray;
     }
+
+    public Stack() { }
 
     void push(T element) {
         stackArray.add(element);
