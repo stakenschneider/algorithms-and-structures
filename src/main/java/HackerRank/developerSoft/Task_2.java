@@ -1,4 +1,4 @@
-package HackerRank.developerSoft;
+package hackerRank.developerSoft;
 
 import java.io.*;
 import java.util.ArrayList;

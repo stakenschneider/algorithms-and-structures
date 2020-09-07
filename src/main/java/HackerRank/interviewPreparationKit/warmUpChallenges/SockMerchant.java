@@ -1,4 +1,4 @@
-package HackerRank.interviewPreparationKit.warmUpChallenges;
+package hackerRank.interviewPreparationKit.warmUpChallenges;
 
 import java.util.*;
 import java.util.stream.Collectors;

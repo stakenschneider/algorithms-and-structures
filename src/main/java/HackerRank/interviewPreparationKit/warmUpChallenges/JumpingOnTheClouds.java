@@ -1,4 +1,4 @@
-package HackerRank.interviewPreparationKit.warmUpChallenges;
+package hackerRank.interviewPreparationKit.warmUpChallenges;
 
 public class JumpingOnTheClouds {
     static int jumpingOnClouds(int[] c) {

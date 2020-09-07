@@ -1,4 +1,4 @@
-package HackerRank.interviewPreparationKit.warmUpChallenges;
+package hackerRank.interviewPreparationKit.warmUpChallenges;
 
 class CountingValleys {
     static int countingValleys(int n, String s) {

@@ -1,4 +1,4 @@
-package HackerRank.interviewPreparationKit.warmUpChallenges;
+package hackerRank.interviewPreparationKit.warmUpChallenges;
 
 public class RepeatedString {
     static long repeatedString(String s, long n) {
