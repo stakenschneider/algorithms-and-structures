@@ -2,7 +2,6 @@ package hackerRank.thirtyDaysOfCode
 
 // Data Types
 object Day_1 {
-    @JvmStatic
     fun main(args: Array<String>) {
         val i = 4
         val d = 4.0
